@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: desy1
+  host: desy1
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-52
+  - Monitoring and Analytics-tp
+  - Auto-Scaling-7n
